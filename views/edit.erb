@@ -1,6 +1,6 @@
 
-<form action="/memos/<%= @memo["id"] %>" method="patch" class="memo-form">
-  <input type="hidden" name="_method" value="put">
+<form action="/memos/<%= @memo["id"] %>" method="post" class="memo-form">
+  <input type="hidden" name="_method" value="patch">
   <label>タイトル</label>
   <input type="text" name="title" value="<%= h(@memo["title"]) %>">
 
