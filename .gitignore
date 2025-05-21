@@ -1,0 +1,5 @@
+# bundler
+.bundle/
+
+# vendor
+/vendor/
